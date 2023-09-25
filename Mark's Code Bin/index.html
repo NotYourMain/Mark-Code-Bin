@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark's Code Bin</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+  <div id="titleHeader">
+    <div id="logo">
+      Mark's Bin
+    </div>
+    <div id="buttonContainer">
+      <div class="buttonToggle active" id="html">HTML</div>
+      <div class="buttonToggle" id="css">CSS</div>
+      <div class="buttonToggle" id="javascript">JAVASCRIPT</div>
+      <div class="buttonToggle active" id="output">OUTPUT</div>
+    </div>
+  </div>
+
+  <div id="bodyContainer">
+    <textarea class="section" id="htmlSection"><p id="red">Base Html</p></textarea>
+    <textarea class="section hidden" id="cssSection">p{color: green;}</textarea>
+    <textarea class="section hidden" id="javascriptSection">document.getElementById("red").innerHTML= "Helloe";</textarea>
+    <iframe class="section" id="outputSection"></iframe>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
